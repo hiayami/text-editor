@@ -59,13 +59,17 @@ module.exports = () => {
           loader: "html-loader",
         },
         {
-          test: /\.(png|jpe?g|gif)$/i,
-          use: [
-            {
-              loader: 'file-loader',
-            },
-          ],
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/resource',
         },
+        // {
+        //   test: /\.(png|jpe?g|gif)$/i,
+        //   use: [
+        //     {
+        //       loader: 'file-loader',
+        //     },
+        //   ],
+        // },
         // {
         //   test: /\.(js)$/,
         //   exclude: /node_modules/,
