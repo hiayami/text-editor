@@ -23,7 +23,9 @@ Navigate to the deployed Heroku link, and click the "Install!" button to install
 ## Usage
 A text editor that saves text content on the user's local computer in the browser or in downloaded app.
 <br>
-Deployed Heroku Link:
+Deployed Heroku Link: https://text-eddy.herokuapp.com/
+
+![Screen Shot 2022-07-10 at 6 35 25 PM](https://user-images.githubusercontent.com/98536530/178172667-e9e0980d-b689-4242-87e2-ecdc615bc73c.png)
 
 ## License
 Read more about MIT License here: [MIT License](https://opensource.org/licenses/MIT)
